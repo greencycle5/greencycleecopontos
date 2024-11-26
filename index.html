@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecopontos - Green Cycle</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Cabeçalho -->
+    <header class="header">
+        <div class="logo">
+            <img src="GreenCycle-removebg-preview (1).png" alt="Logo Green Cycle">
+        </div>
+        <nav class="menu">
+            <ul>
+                <li><a href="#home">Início</a></li>
+                <li><a href="#sobre">Sobre Nós</a></li>
+                <li><a href="#parceiros">Parceiros</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#ecopontos">Ecopontos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Seção Ecopontos -->
+    <section id="ecopontos" class="ecopontos">
+        <h2>Ecopontos Green Cycle</h2>
+        <p class="description">Encontre os ecopontos mais próximos e saiba como fazer a sua parte na reciclagem de materiais. Juntos podemos transformar o futuro!</p>
+
+        <div class="ecoponto-card">
+            <h3>EcoPonto Taboão da Serra</h3>
+            <p>Localização: Praça 9 de Julho, Centro</p>
+            <p>Horário de funcionamento: Segunda a Sexta, das 9h às 17h</p>
+            <p>Materiais aceitos: Papel, plástico, metal, vidro</p>
+            <button class="info-button" onclick="toggleInfo(this)">Mais informações</button>
+            <div class="more-info" style="display:none;">
+                <p>Este ecoponto recebe uma grande variedade de materiais recicláveis, contribuindo para um destino mais sustentável. Em breve, teremos mais pontos de coleta na cidade!</p>
+            </div>
+        </div>
+
+        <div class="ecoponto-card">
+            <h3>EcoPonto Embu das Artes</h3>
+            <p>Localização: Rua das Flores, Jardim São Luiz</p>
+            <p>Horário de funcionamento: Segunda a Sexta, das 8h às 16h</p>
+            <p>Materiais aceitos: Papel, plástico, vidro</p>
+            <button class="info-button" onclick="toggleInfo(this)">Mais informações</button>
+            <div class="more-info" style="display:none;">
+                <p>O ecoponto de Embu das Artes é um espaço dedicado para a coleta seletiva. Participe e faça a diferença no destino de resíduos na cidade!</p>
+            </div>
+        </div>
+
+        <div class="ecoponto-card">
+            <h3>EcoPonto Campo Limpo</h3>
+            <p>Localização: Rua dos Eucaliptos, Campo Limpo</p>
+            <p>Horário de funcionamento: Terça a Sábado, das 10h às 18h</p>
+            <p>Materiais aceitos: Papel, metal, vidro</p>
+            <button class="info-button" onclick="toggleInfo(this)">Mais informações</button>
+            <div class="more-info" style="display:none;">
+                <p>Este ecoponto tem o foco em coletar materiais recicláveis como papel e vidro. Junte-se a nós e ajude a reduzir o desperdício!</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-links">
+            <a href="#contato">Fale Conosco</a>
+            <a href="#">Política de Privacidade</a>
+            <a href="#">Termos de Uso</a>
+        </div>
+        <p>&copy; 2024 Green Cycle - Contribuindo para um planeta mais verde.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
